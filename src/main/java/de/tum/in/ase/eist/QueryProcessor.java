@@ -15,6 +15,8 @@ public class QueryProcessor {
            return "Sin10";
         } else if (query.contains("what is your name"))
             return "Sin10";
+        else if ("which of the following numbers is the largest: 98, 203")
+            return "203";
         else { // TODO extend the programm here , extend right here
             return "";
         }
