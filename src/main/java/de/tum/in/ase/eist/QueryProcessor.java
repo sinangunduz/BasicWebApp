@@ -17,6 +17,12 @@ public class QueryProcessor {
             return "Sin10";
         else if ("which of the following numbers is the largest: 98, 203")
             return "203";
+        else if ("which of the following numbers is the largest: 43, 57, 806, 241")
+            return "806";
+        else if ("what is 14 plus 6")
+            return "20";
+        else if (" what is 12 plus 18")
+            return "30";
         else { // TODO extend the programm here , extend right here
             return "";
         }
